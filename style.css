@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background: url(ressources/images/ny.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 120px;
+    font-weight: 900;
+    background: linear-gradient(90deg, #4969ed, #3bd86d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.nav {
+    position: relative;
+    top: 10%;
+    text-align: center;
+}
+
+.nav ul {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 35px;
+    margin: 0 25px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    background: linear-gradient(90deg, #fffeff, #3bd86d, rgb(219, 213, 226));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.social {
+    color:  #4969ed;
+    position: absolute;
+    left: 3%;
+    top: 20%;
+}
+
+.social ul {
+    padding: 0;
+    list-style: none;
+}
+
+.social ul li {
+    margin-bottom: 50px;
+    list-style: none;
+    border-radius: 100%;
+    background: rgb(250, 248, 248);
+    width: 50px;
+    height: 50px;
+    border: 1px dashed rgb(243, 241, 241);
+}
+
+.social ul li i {
+    font-size: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.left {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background: url(ressources/images/bgdashed.jpg);
+    top: 0;
+    left: 0;
+}
+
+.left h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: bolder;
+    letter-spacing: 12px;
+    background: linear-gradient(90deg, #4969ed, #3bd86d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background: url(ressources/images/bgdashed2.jpg);
+    right: 0;
+}
+
+.right h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 92px;
+    font-weight: bolder;
+    letter-spacing: 12px;
+    background: linear-gradient(90deg, #4969ed, #3bd86d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
